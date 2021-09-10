@@ -5,6 +5,7 @@
   --contrast-background-color: #2f303a;
   --white-color: #ffffff;
   --secondary-backround-color: #f5f4fa;
+  --footer-color: rgba(255, 255, 255, 0.6);
 }
 body {
   color: var(--primary-text-color);
@@ -173,7 +174,9 @@ ul {
   letter-spacing: 0.03em;
 }
 .name {
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.17;
 }
 .member p {
   color: var(--secondary-text-color);
@@ -197,6 +200,7 @@ ul {
 .address .contacts {
   margin-bottom: 9px;
   display: inline-block;
+  color: var(--footer-color);
 }
 /* Портфолио */
 /* оформление кнопок странице портфолио */
